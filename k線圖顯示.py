@@ -75,7 +75,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "C109151142 陳明凱"))
         self.label_2.setText(_translate("MainWindow", "請輸入股票代號:"))
         self.pushButton.setText(_translate("MainWindow", "顯示K線圖"))
-        self.label_3.setText(_translate("MainWindow", "顯示解果文字:"))
+        self.label_3.setText(_translate("MainWindow", "顯示結果文字:"))
         self.comboBox.setItemText(0, _translate("MainWindow", "買進:MA5>MA20 賣出MA5<MA20"))
         self.comboBox.setItemText(1, _translate("MainWindow", "買進:MA5>MA10>MA20 賣出: MA5<MA10"))
         self.comboBox.setItemText(2, _translate("MainWindow", "買進:MA5>MA10>MA20 賣出: MA5<MA10 買進賣出時當日成交量大於過去20日平均的2倍"))
@@ -90,6 +90,7 @@ class Ui_MainWindow(object):
         self.label.setScaledContents(True)
         self.label.setPixmap(QtGui.QPixmap("img/stock_Kbar.png"))
         self.label_3.setText(_translate("MainWindow", result_txt))
+
 
 
 if __name__ == "__main__":
