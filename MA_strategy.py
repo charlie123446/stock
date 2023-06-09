@@ -1,7 +1,7 @@
 import yF_Kbar
 import pandas as pd
 import talib
-
+# today is 6/9
 
 def get_MA(stock_id):
     df = yF_Kbar.get_pic(stock_id, 6)
